@@ -1,0 +1,87 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #222;
+  }
+  
+  .siteheader {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .siteheader h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  main {
+    margin-left: 10px;
+  }
+  
+  .emojis {
+    max-width: 55rem;
+    display: grid;
+    grid-template-columns: repeat (2,1fr);
+    grid-template-rows: repeat (2, 1fr);
+    grid-template-areas:
+    "a b"
+    "c d";
+    gap: 15px;
+    margin-bottom: 10px;
+
+  }
+  
+  .emoji {
+    background: #fff;
+    border: 1px solid #222;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  
+  .emoji h2 {
+    font-size: 24px;
+    text-align: left;
+    border-bottom: 2px solid #ccc;
+    margin: 0;
+    color: #000000;
+  }
+  
+  .icon {
+    font-size: 4rem;
+    display: block;
+    justify-content: center;
+    order: -1;
+  }
+  
+  .emoji p {
+    font-size: 14px;
+    color: #000000;
+    text-align: left;
+    flex-grow: -1;
+    display: inline-block;
+  }
+  
+  .emoji a {
+    display: inline-block;
+    text-align: left;
+    background-color: #781baa;
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 8px;
+    font-size: 15px;
+    margin-top: 0.5rem;
+  }
